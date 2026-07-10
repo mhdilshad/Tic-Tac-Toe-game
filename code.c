@@ -15,10 +15,9 @@
 //UI Rendering:>
 void draw_board() {
 
-    #ifdef _WIN32
-    #else
-        system("clear");
-    #endif
+   
+    system("cls");
+
 
     printf("\n");
     printf("     |     |     \n");

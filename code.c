@@ -1,16 +1,15 @@
 // Configuration & State:>
-    
+#include <stdio.h>
+#include <stdlib.h>
+
+// Macros for player representations
+#define PLAYER_X 'X'
+#define PLAYER_O 'O'
 
 
-
-
-
-
-
-
-
-
-
+char board[10] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
+char current_marker;
+int current_player;
 
 //UI Rendering:>
 void draw_board() {

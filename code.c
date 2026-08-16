@@ -64,6 +64,8 @@ int check_winner() {
 
     return 0;
 }
+
+//Main Game Loop:>
 int main() {
     current_player = 1;
     current_marker = PLAYER_X;
@@ -114,22 +116,3 @@ int main() {
 
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-//Main Game Loop:>
-
-
-
-
-
-
-
-

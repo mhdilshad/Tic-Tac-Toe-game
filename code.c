@@ -64,6 +64,56 @@ int check_winner() {
 
     return 0;
 }
+int main() {
+    current_player = 1;
+    current_marker = PLAYER_X;
+    int total_turns = 0;
+    int game_status = 0; // 0 = Ongoing, 1 = Win, 2 = Draw
+    int choice;
+
+    while (game_status == 0) {
+        draw_board();
+        printf("Player %d (%c), enter a slot number (1-9): ", current_player, current_marker);
+
+        // Validate user input is an integer
+        if (scanf("%d", &choice) != 1) {
+            printf("Invalid input! Please enter a number.\n");
+            while (getchar() != '\n'); // Clear input buffer
+            continue;
+        }
+
+        // Try to place the marker
+        if (!place_marker(choice)) {
+            printf("Slot already taken or invalid! Press Enter to try again...");
+            while (getchar() != '\n'); // Clear buffer
+            getchar(); // Pause
+            continue;
+        }
+
+        total_turns++;
+
+        // Check for game over conditions
+        if (check_winner()) {
+            game_status = 1; // Someone won
+        } else if (total_turns == 9) {
+            game_status = 2; // Board full, it's a draw
+        } else {
+            // Swap players
+            current_player = (current_player == 1) ? 2 : 1;
+            current_marker = (current_marker == PLAYER_X) ? PLAYER_O : PLAYER_X;
+        }
+    }
+
+    // Final Render and Winner Announcement
+    draw_board();
+    if (game_status == 1) {
+        printf("Congratulations! Player %d (%c) wins!\n", current_player, current_marker);
+    } else {
+        printf("It's a tie game!\n");
+    }
+
+    return 0;
+}
 
 
 

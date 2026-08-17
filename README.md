@@ -9,8 +9,7 @@
 4. Ishteaque Ahnaf
 
 ## Overview
-A classic two-player Tic-Tac-Toe game implemented in C, playable directly in the console/terminal. Players take turns placing their marker  
-(`X` or `O`) on a numbered 1–9 grid until one player wins or the board fills up in a draw.
+A classic two-player Tic-Tac-Toe game implemented in C, playable directly in the console/terminal. Players take turns placing their marker  (`X` or `O`) on a numbered 1–9 grid until one player wins or the board fills up in a draw.
 
 ## Features
 - Simple, clear 3x3 board rendered using slot numbers (1–9) for easy input

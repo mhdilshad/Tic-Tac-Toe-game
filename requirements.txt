@@ -1,0 +1,8 @@
+# This is a C program and does not require external libraries.
+# Only a standard C compiler is needed to build and run it.
+
+Compiler: GCC (GNU Compiler Collection), version 9.0 or higher recommended
+Standard Library Only: stdio.h, stdlib.h (included with any standard C compiler)
+
+# Compile with:
+# gcc main.c -o tictactoe

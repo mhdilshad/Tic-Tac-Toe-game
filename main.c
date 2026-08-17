@@ -65,7 +65,7 @@ int check_winner() {
     return 0;
 }
 
-//Main Game Loop:>
+
 int main() {
     current_player = 1;
     current_marker = PLAYER_X;
@@ -73,6 +73,7 @@ int main() {
     int game_status = 0; // 0 = Ongoing, 1 = Win, 2 = Draw
     int choice;
 
+   //Main Game Loop:>
     while (game_status == 0) {
         draw_board();
         printf("Player %d (%c), enter a slot number (1-9): ", current_player, current_marker);

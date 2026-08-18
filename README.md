@@ -1,4 +1,4 @@
-# Tic-Tac-Toe (C Console Game)
+# Tic-Tac-Toe Game
 
 **Group Number:** 2
 

@@ -5,7 +5,7 @@
 **Group Members:**
 1. Sajir Rashdi Karim
 2. Irfan Sadik Ahmed
-3. Md. Mahfuz Hayder Dilshad
+3. Md Mahfuz Hayder Dilshad
 4. Ishteaque Ahnaf
 
 ## Overview

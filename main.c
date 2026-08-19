@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Macros for player representations
+// Symbols for player representations
 #define PLAYER_X 'X'
 #define PLAYER_O 'O'
 

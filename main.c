@@ -2,7 +2,7 @@
 #include <stdio.h> //standard printf, scanf, gets, etc.
 #include <stdlib.h>//system("cls");
 
-// Symbols for player representations
+// Symbols for player representations player_x for X and player_O for O
 #define PLAYER_X 'X'
 #define PLAYER_O 'O'
 

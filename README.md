@@ -3,10 +3,11 @@
 **Group Number:** 2
 
 **Group Members:**
-1. Sajir Rashdi Karim
-2. Irfan Sadik Ahmed
-3. Md Mahfuz Hayder Dilshad
-4. Ishteaque Ahnaf
+```Name:```                       ```ID:```
+1. Sajir Rashdi Karim       2621130042
+2. Irfan Sadik Ahmed        2625435042
+3. Md Mahfuz Hayder Dilshad 2624833042
+4. Ishteaque Ahnaf          2624254042
 
 ## Overview
 A classic two-player Tic-Tac-Toe game implemented in C, playable directly in the console/terminal. Players take turns placing their marker  (`X` or `O`) on a numbered 1–9 grid until one player wins or the board fills up in a draw.

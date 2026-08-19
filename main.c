@@ -1,13 +1,13 @@
-// Configuration & State:>
-#include <stdio.h>
-#include <stdlib.h>
+// Required Libraries,
+#include <stdio.h> //standard printf, scanf, gets, etc.
+#include <stdlib.h>//system("cls");
 
 // Symbols for player representations
 #define PLAYER_X 'X'
 #define PLAYER_O 'O'
 
-
-char board[10] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
+//Universal scope/variable decleration so that the variables are changed globally.
+char board[10] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'}; 
 char current_marker;
 int current_player;
 

@@ -1,8 +1,8 @@
-// Required Libraries,
-#include <stdio.h> //standard printf, scanf, gets, etc.
-#include <stdlib.h>//system("cls");
+// Required Libraries:>
+#include <stdio.h> 
+#include <stdlib.h>
 
-// Symbols for player representations player_x for X and player_O for O
+// Symbols for player representations:>
 #define PLAYER_X 'X'
 #define PLAYER_O 'O'
 
